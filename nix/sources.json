@@ -24,27 +24,27 @@
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "cardano-db-sync-12": {
-        "branch": "refs/tags/12.0.0-pre3",
+        "branch": "refs/tags/12.0.0-pre4",
         "description": "A component that follows the Cardano chain and stores blocks and transactions in PostgreSQL",
         "homepage": "",
         "owner": "input-output-hk",
         "repo": "cardano-db-sync",
-        "rev": "6e594658780bcd21b94808861177db1284aa168d",
-        "sha256": "01hm1mghq023vp5fvlw1q89nswx20qgmgkbyb58k7vnaid3ixgak",
+        "rev": "4ef308f6e6a9b92ee51e1a952f4d21fcd827f295",
+        "sha256": "0a77hm2h1vny3y43799bqnq4bf718nwsa4fqgs07y9bi1v2hb6gw",
         "type": "tarball",
-        "url": "https://github.com/input-output-hk/cardano-db-sync/archive/6e594658780bcd21b94808861177db1284aa168d.tar.gz",
+        "url": "https://github.com/input-output-hk/cardano-db-sync/archive/4ef308f6e6a9b92ee51e1a952f4d21fcd827f295.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "cardano-db-sync-service": {
-        "branch": "fixes/nixos-postStop-missing-env-var",
+        "branch": "smash-nixos-service",
         "description": "A component that follows the Cardano chain and stores blocks and transactions in PostgreSQL",
         "homepage": "",
         "owner": "input-output-hk",
         "repo": "cardano-db-sync",
-        "rev": "e102c4a545969b239a139471cb7ccb25c788b9f8",
-        "sha256": "1zr7f5dfx5qdw9s705lc009f7h7l4bihqw5bnvf9qczk4f4qxymx",
+        "rev": "c7160cc883203fa5a6666a08a7b120a8e3633963",
+        "sha256": "0h8i7c5yaiclskb3aj3jc2kfvpvlancnnj7xlbxn2sjvmjag9j9b",
         "type": "tarball",
-        "url": "https://github.com/input-output-hk/cardano-db-sync/archive/e102c4a545969b239a139471cb7ccb25c788b9f8.tar.gz",
+        "url": "https://github.com/input-output-hk/cardano-db-sync/archive/c7160cc883203fa5a6666a08a7b120a8e3633963.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "cardano-explorer-app-1.6": {
