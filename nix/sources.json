@@ -24,15 +24,15 @@
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "cardano-db-sync-12": {
-        "branch": "refs/tags/12.0.0-pre4",
+        "branch": "refs/tags/12.0.0-pre5",
         "description": "A component that follows the Cardano chain and stores blocks and transactions in PostgreSQL",
         "homepage": "",
         "owner": "input-output-hk",
         "repo": "cardano-db-sync",
-        "rev": "4ef308f6e6a9b92ee51e1a952f4d21fcd827f295",
-        "sha256": "0a77hm2h1vny3y43799bqnq4bf718nwsa4fqgs07y9bi1v2hb6gw",
+        "rev": "2ee31a556c8293be8413565cd30ef5483d01554e",
+        "sha256": "0hl45wpnd9i3ghbkyc0zhd46gcx8j12kvr293b9l93mcdmd22ayf",
         "type": "tarball",
-        "url": "https://github.com/input-output-hk/cardano-db-sync/archive/4ef308f6e6a9b92ee51e1a952f4d21fcd827f295.tar.gz",
+        "url": "https://github.com/input-output-hk/cardano-db-sync/archive/2ee31a556c8293be8413565cd30ef5483d01554e.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "cardano-db-sync-service": {
@@ -41,10 +41,10 @@
         "homepage": "",
         "owner": "input-output-hk",
         "repo": "cardano-db-sync",
-        "rev": "c7160cc883203fa5a6666a08a7b120a8e3633963",
-        "sha256": "0h8i7c5yaiclskb3aj3jc2kfvpvlancnnj7xlbxn2sjvmjag9j9b",
+        "rev": "a3dbb9f0d4d229bb9a468df410768ec47f3b6285",
+        "sha256": "1jg26yzr9ivavccxkpw5sn09q36iqp3fas46z6qnbs0ghbr0c7dk",
         "type": "tarball",
-        "url": "https://github.com/input-output-hk/cardano-db-sync/archive/c7160cc883203fa5a6666a08a7b120a8e3633963.tar.gz",
+        "url": "https://github.com/input-output-hk/cardano-db-sync/archive/a3dbb9f0d4d229bb9a468df410768ec47f3b6285.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "cardano-explorer-app-1.6": {

@@ -215,6 +215,11 @@ in {
     inherit (globals) environmentName;
     port = 3200;
     inherit dbSyncPkgs;
+    # TODO: remove after https://github.com/input-output-hk/cardano-db-sync/pull/950 is tagged
+    package = (dbSyncPkgs.cardanoDbSyncProject.projectFunction dbSyncPkgs.haskell-nix [
+      dbSyncPkgs.cardanoDbSyncProject.projectModule
+      { modules = [{packages.cardano-smash-server.flags.disable-basic-auth = true;}]; }
+    ]).hsPkgs.cardano-smash-server.components.exes.cardano-smash-server;
     postgres = { inherit (cfg.postgres) port database user socketdir; };
   };
 
